@@ -1,4 +1,4 @@
-# behavior-dataset
+# short behavior dataset
 Dataset for behavior recognition on NAO robot. 
 
 Dataset is divided into 6 different behavior classes:
