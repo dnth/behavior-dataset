@@ -9,4 +9,5 @@ Dataset is divided into 6 different behavior classes:
  5. Ball Roll Plate
  6. Ropeway
  
- 
+Each in their own respective folders.
+For each behavior class, there are 10,000 timesteps of continuous sampling on the joints of NAO robot while performing the behavior.
