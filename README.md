@@ -9,7 +9,7 @@ Dataset is divided into 6 different behavior classes:
  5. Ball Roll Plate
  6. Ropeway
  
-Each in their own respective folders.
+Each in class of behaviors are in their own respective folders.
 In my research, I have used the dataset for classifications of behaviors on NAO robot [2]. 
 For each behavior class, there are 10,000 timesteps of continuous sampling on the joints of NAO robot while performing the behavior. You can partition the data into many samples in order to train your neural network architecture. I have personally tested partitioning them into 100 timesteps and 200 timesteps. Both works ok. 
 
