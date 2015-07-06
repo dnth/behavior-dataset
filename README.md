@@ -10,7 +10,7 @@ Dataset is divided into 6 different behavior classes:
  6. Ropeway
  
 Each in class of behaviors are in their own respective folders.
-In my research, I have used the dataset for classifications of behaviors on NAO robot [2]. 
+In my research, I have used the dataset for classifications of behaviors on NAO robot [2]. --<cite>Noda [1]</cite>
 
 The behavior data is saved in a .txt file. In each .txt file, there are 10000 rows and 10 columns. The number of rows represents the number of samples. The columns represents the joint position. In our case we 10 columns that corresponds to ten joints in the following order:
 
@@ -30,11 +30,11 @@ For each behavior class, there are 10,000 timesteps of continuous sampling on th
 
 I have tested using the dataset on MLP, RNN and LSTM architecture. Best results obtained by LSTM. I will post my publication soon. 
 
-[1] K. Noda, H. Arie, Y. Suga, and T. Ogata, “Multimodal integration
+[1]: K. Noda, H. Arie, Y. Suga, and T. Ogata, “Multimodal integration
     learning of robot behavior using deep neural networks,” Robotics and
     Autonomous Systems, vol. 62, no. 6, pp. 721–736, 2014.
 
-[2] D. N. T. How, K. S. M. Sahari, Y. Hu, and L. C. Kiong, “Multiple
+[2]: D. N. T. How, K. S. M. Sahari, Y. Hu, and L. C. Kiong, “Multiple
 sequence behaviour recognition on humanoid robots using long short
 term memory (lstm),” in IEEE 2014 International Symposium on
 Robotics and Mnufacturing Automation (IEEE-ROMA2014). IEEE,
