@@ -1,5 +1,5 @@
 # short behavior dataset
-Dataset for behavior recognition on NAO robot. Behavior is adapted from [1]
+Dataset for behavior recognition on NAO robot. Behavior are adapted from [1]
 
 Dataset is divided into 6 different behavior classes:
  1. Ball Lift
@@ -10,6 +10,7 @@ Dataset is divided into 6 different behavior classes:
  6. Ropeway
  
 Each in their own respective folders.
+In my research, I have used the dataset for classifications of behaviors on NAO robot [2]. 
 For each behavior class, there are 10,000 timesteps of continuous sampling on the joints of NAO robot while performing the behavior. You can partition the data into many samples in order to train your neural network architecture. I have personally tested partitioning them into 100 timesteps and 200 timesteps. Both works ok. 
 
 I have tested using the dataset on MLP, RNN and LSTM architecture. Best results obtained by LSTM. I will post my publication soon. 
@@ -17,3 +18,9 @@ I have tested using the dataset on MLP, RNN and LSTM architecture. Best results 
 [1] K. Noda, H. Arie, Y. Suga, and T. Ogata, “Multimodal integration
     learning of robot behavior using deep neural networks,” Robotics and
     Autonomous Systems, vol. 62, no. 6, pp. 721–736, 2014.
+
+[2] D. N. T. How, K. S. M. Sahari, Y. Hu, and L. C. Kiong, “Multiple
+sequence behaviour recognition on humanoid robots using long short
+term memory (lstm),” in IEEE 2014 International Symposium on
+Robotics and Mnufacturing Automation (IEEE-ROMA2014). IEEE,
+2014.
