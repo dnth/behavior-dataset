@@ -30,6 +30,7 @@ For each behavior class, there are 10,000 timesteps of continuous sampling on th
 
 I have tested using the dataset on MLP, RNN and LSTM architecture. Best results obtained by LSTM. 
 I have published some results in [3]. Here is a youtube link for the video https://www.youtube.com/watch?v=j_JIlfgBD_4
+Thank you.
 
 [1] K. Noda, H. Arie, Y. Suga, and T. Ogata, “Multimodal integration
     learning of robot behavior using deep neural networks,” Robotics and
