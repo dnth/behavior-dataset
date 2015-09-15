@@ -29,7 +29,7 @@ The behavior data is saved in a .txt file. In each .txt file, there are 10000 ro
 For each behavior class, there are 10,000 timesteps of continuous sampling on the joints of NAO robot while performing the behavior. You can partition the data into many samples in order to train your neural network architecture. I have personally tested partitioning them into 100 timesteps and 200 timesteps. Both works ok. 
 
 I have tested using the dataset on MLP, RNN and LSTM architecture. Best results obtained by LSTM. 
-I have published some results in [3]. Here is a youtube link for the video https://www.youtube.com/watch?v=j_JIlfgBD_4
+I have published some results in [2]. Here is a youtube link for the video https://www.youtube.com/watch?v=j_JIlfgBD_4
 Thank you.
 
 [1] K. Noda, H. Arie, Y. Suga, and T. Ogata, “Multimodal integration
@@ -42,8 +42,4 @@ term memory (lstm),” in IEEE 2014 International Symposium on
 Robotics and Mnufacturing Automation (IEEE-ROMA2014). IEEE,
 2014.
 
-[3] D. N. T. How, K. S. M. Sahari, Y. Hu, and L. C. Kiong, “Multiple
-sequence behaviour recognition on humanoid robots using long short
-term memory (lstm),” in IEEE 2014 International Symposium on
-Robotics and Mnufacturing Automation (IEEE-ROMA2014). IEEE,
-2014.
+
